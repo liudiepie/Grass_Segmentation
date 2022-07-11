@@ -29,3 +29,6 @@ switch to another terminal and type
 source install/setup.bash
 ros2 run depthai_examples rgb_subscriber
 ```
+
+## Result
+![](video/video.MOV)
