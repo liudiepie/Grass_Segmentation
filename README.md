@@ -5,6 +5,7 @@ If only apply for obstacle avoidance, farmbot will think grass as an obstacle it
 Therefore, this green filter is to ignore the green color from the camera to avoid this issue.  
 
 ## Pipeline
+![](image/pipeline.jpg)
 
 ## Installation
 This project is based on [depthai-ros](https://github.com/luxonis/depthai-ros) with ROS2-Foxy.    
