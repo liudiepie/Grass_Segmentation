@@ -31,6 +31,4 @@ ros2 run depthai_examples rgb_subscriber
 ```
 
 ## Result
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1KawHPaypFYntZRwgIoU_QzIDGerMqJV5/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+![](https://drive.google.com/file/d/1KawHPaypFYntZRwgIoU_QzIDGerMqJV5/view?usp=sharing)
