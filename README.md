@@ -31,4 +31,5 @@ ros2 run depthai_examples rgb_subscriber
 ```
 
 ## Result
-![](https://drive.google.com/file/d/1KawHPaypFYntZRwgIoU_QzIDGerMqJV5/view?usp=sharing)
+https://user-images.githubusercontent.com/45909260/178341847-226bb57a-8e1c-4761-b4be-20c2ac6ce0a3.mp4
+
