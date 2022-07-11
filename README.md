@@ -31,4 +31,8 @@ ros2 run depthai_examples rgb_subscriber
 ```
 
 ## Result
-![](video/video.mov)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" >
+    <source src="video/video.MOV" type="video/mov">
+  </video>
+</figure>
