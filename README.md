@@ -31,4 +31,4 @@ ros2 run depthai_examples rgb_subscriber
 ```
 
 ## Result
-![](video/video.MOV)
+![](video/video.mov)
