@@ -18,18 +18,20 @@ colcon build --packages-select depthai_examples
 ```
 
 ## Execute
-To run the files, create two terminals. Both terminals should under the workspace/  
+To run the files, create two terminals. Both terminals should under the workspace/ros2  
 choose one and type  
 ```bash
 source install/setup.bash  
-ros2 launch depthai_examples rgb_stereo_node  
+ros2 launch depthai_examples rgb_stereo_node.launch.py  
 ```
 switch to another terminal and type  
 ```bash
 source install/setup.bash
-ros2 run depthai_examples rgb_subscriber
+ros2 run depthai_examples rgb_subscriber_node
 ```
 
 ## Result
+Publisher will publish rgb image and stereo information.  
+Subscriber will show rgb image, depth image and green filtered image (binary image, white is green and others are black)  
 https://user-images.githubusercontent.com/45909260/178341847-226bb57a-8e1c-4761-b4be-20c2ac6ce0a3.mp4
 
