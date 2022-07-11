@@ -10,9 +10,9 @@ Therefore, this green filter is to ignore the green color from the camera to avo
 ## Installation
 This project is based on [depthai-ros](https://github.com/luxonis/depthai-ros) with ROS2-Foxy.    
 First of all, follow the above link install dependencies in depthai-ros and build the repository.  
-Second, go under <workspace>/ros2/src/luxonis/depthai-ros-examples/depthai_examples/ros2_src and replace the rgb_video_subscriber.cpp  
-Third, go under <workspace>/ros2/src/luxonis/depthai-ros-examples/depthai_examples and replace the CMakeLists.txt  
-Finally, build the packages again, go under <workspace>/ros2 and type  
+Second, go under workspace/ros2/src/luxonis/depthai-ros-examples/depthai_examples/ros2_src and replace the rgb_video_subscriber.cpp  
+Third, go under workspace/ros2/src/luxonis/depthai-ros-examples/depthai_examples and replace the CMakeLists.txt  
+Finally, build the packages again, go under workspace/ros2 and type  
 ```bash
 colcon build --packages-select depthai_examples
 ```
