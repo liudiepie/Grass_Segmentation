@@ -1,4 +1,4 @@
-# Green_filter
+# Grass_Segmentation
 This project is to do a simple segmentation for the farmbot. When farmbot moves outdoor, it needs to do obstacle avoidance.   
 However, grass is a kind of soft objects that farmbot can go through.  
 If only apply for obstacle avoidance, farmbot will think grass as an obstacle it can't pass through.  
