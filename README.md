@@ -6,9 +6,11 @@ Therefore, this green filter is to ignore the green color from the camera to avo
 
 ## Pipeline
 #### Green Filter  
-![](image/pipeline.JPG)  
+![](image/pipeline.png)  
 #### Background Filter  
-![](image/Pipeline.png)
+![](image/Pipeline.png)  
+#### Grass Segmentation   
+![](image/final.png)
 
 ## Installation
 This project is based on [depthai-ros](https://github.com/luxonis/depthai-ros) with ROS2-Foxy.    
