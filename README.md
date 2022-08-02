@@ -9,7 +9,7 @@ In this project, we use Oak D Lite for the whole process. It doesn't include imu
 For depth perception, the baseline of OAK D Lite left and right camera is 7.5cm.   
 The minimum detective distance is ~20cm (480p, [extended](https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#currently-configurable-blocks)), ~35 (480p), and the maximum detective distance is ~19.1m.  
 ### Specification
-
+![ScreenShot Tool -20220802115343](https://user-images.githubusercontent.com/45909260/182418457-10c3710a-7dac-4790-b87a-8a0fcc73dd66.png)
 
 ## Pipeline
 ### Green Filter  
