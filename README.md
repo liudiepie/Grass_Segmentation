@@ -82,7 +82,7 @@ If the terminal still shows it can’t connect to the camera, execute the deptha
 
 ## Installation
 There are two methods to do Green Filter either directly use C++ or use ros2 subscribe  
-One is depthai-core, the other is ROS2.  
+One is depthai-core, the other is depthai-ros.  
 
 ### depthai-core
 This part is based on depthai-core which mentioned above. 
