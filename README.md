@@ -81,7 +81,11 @@ If the terminal still shows it can’t connect to the camera, execute the deptha
 ![](image/final.png)
 
 ## Installation
-This project is based on [depthai-ros](https://github.com/luxonis/depthai-ros) with ROS2-Foxy.    
+There are two methods to do Green Filter either directly use C++ or use ros2 subscribe  
+### depthai-core
+This part is based on depthai-core which mentioned above. 
+### ROS2
+This part is based on [depthai-ros](https://github.com/luxonis/depthai-ros) with ROS2-Foxy.    
 First of all, follow the above link install dependencies in depthai-ros and build the repository.  
 Second, go under workspace/ros2/src/luxonis/depthai-ros-examples/depthai_examples/ros2_src and replace the rgb_video_subscriber.cpp  
 Third, go under workspace/ros2/src/luxonis/depthai-ros-examples/depthai_examples and replace the CMakeLists.txt  
@@ -90,7 +94,7 @@ Finally, build the packages again, go under workspace/ros2 and type
 colcon build --packages-select depthai_examples
 ```
 
-## Execute
+#### Execute
 To run the files, create two terminals. Both terminals should under the workspace/ros2  
 choose one and type  
 ```bash
@@ -103,7 +107,7 @@ source install/setup.bash
 ros2 run depthai_examples rgb_subscriber_node
 ```
 
-## Result
+#### Result
 Subscriber will show rgb image, depth image, green filtered image (binary image, white is green and others are black) and background filtered image (binary image, white is background and others are black)  
 Publisher will combine green filtered image with background filtered image and draw the contours of the image.    
 
