@@ -8,6 +8,8 @@ Therefore, this green filter is to ignore the green color from the camera to avo
 In this project, we use Oak D Lite for the whole process. It doesn't include imu inside and require USB-C for power supply 900mA at 5V  
 For depth perception, the baseline of OAK D Lite left and right camera is 7.5cm.   
 The minimum detective distance is ~20cm (480p, [extended](https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#currently-configurable-blocks)), ~35 (480p), and the maximum detective distance is ~19.1m.  
+#### Specification
+
 
 ## Pipeline
 #### Green Filter  
