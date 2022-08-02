@@ -12,11 +12,11 @@ The minimum detective distance is ~20cm (480p, [extended](https://docs.luxonis.c
 
 
 ## Pipeline
-#### Green Filter  
+### Green Filter  
 ![](image/pipeline.png)  
-#### Background Filter  
+### Background Filter  
 ![](image/Pipeline.png)  
-#### Grass Segmentation   
+### Grass Segmentation   
 ![](image/final.png)
 
 ## Installation
