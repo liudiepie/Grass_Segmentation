@@ -4,6 +4,11 @@ However, grass is a kind of soft objects that farmbot can go through.
 If only apply for obstacle avoidance, farmbot will think grass as an obstacle it can't pass through.  
 Therefore, this green filter is to ignore the green color from the camera to avoid this issue.  
 
+## Hardware
+In this project, we use Oak D Lite for the whole process. It doesn't include imu inside and require USB-C for power supply 900mA at 5V  
+For depth perception, the baseline of OAK D Lite left and right camera is 7.5cm.   
+The minimum detective distance is ~20cm (480p, [extended](https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#currently-configurable-blocks)), ~35 (480p), and the maximum detective distance is ~19.1m.  
+
 ## Pipeline
 #### Green Filter  
 ![](image/pipeline.png)  
