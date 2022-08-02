@@ -13,7 +13,8 @@ The minimum detective distance is ~20cm (480p, [extended](https://docs.luxonis.c
 ### Testing
 #### depthai_demo
 1. Clone the git under the [Link](https://github.com/luxonis/depthai.git)  
-2. Create a virtual environment and add the files
+2. Create a virtual environment and add the files  
+   In this case, we can use the pycharm professional edition. To get access to the pycharm professional edition, we should create an account of JetBrains. Students will have free educational licenses for JetBrains. [Link](https://www.jetbrains.com/community/education/#students) After getting into the pycharm, we select New Project and change the location to the workspace/depthai. Then PyCharm will show the ReadMe of the git.
 
 ## Pipeline
 ### Green Filter  
