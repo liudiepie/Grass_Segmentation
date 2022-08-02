@@ -29,7 +29,7 @@ The minimum detective distance is ~20cm (480p, [extended](https://docs.luxonis.c
    ```bash
    python3 depthai_demo.py
    ```
-   There might appear the error <span style='color:red'> **“WARNING: Usb rules not found”** </span>
+   There might appear the error <span style="color:blue"> **“WARNING: Usb rules not found”** </span>
 
 ## Pipeline
 ### Green Filter  
