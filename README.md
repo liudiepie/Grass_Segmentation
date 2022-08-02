@@ -30,6 +30,16 @@ The minimum detective distance is ~20cm (480p, [extended](https://docs.luxonis.c
    python3 depthai_demo.py
    ```
    There might appear the error <span style="color:blue"> **"WARNING: Usb rules not found"** </span>
+   Try
+   ```bash
+   echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="03e7", MODE="0666"' | sudo tee /etc/udev/rules.d/80-movidius.rules
+   ```
+   Then
+   ```bash
+   sudo udevadm control --reload-rules && sudo udevadm trigger
+   ```
+After executing these commands, disconnect and reconnect the USB cable to your OAK device.   
+If the terminal still shows it can’t connect to the camera, execute the depthai_demo.py without connecting to the camera and press the Apply and Restart button at the right bottom.  
 
 ## Pipeline
 ### Green Filter  
