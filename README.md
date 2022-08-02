@@ -104,8 +104,8 @@ ros2 run depthai_examples rgb_subscriber_node
 ```
 
 ## Result
-Publisher will publish rgb image and stereo information.  
-Subscriber will show rgb image, depth image and green filtered image (binary image, white is green and others are black)    
+Subscriber will show rgb image, depth image, green filtered image (binary image, white is green and others are black) and background filtered image (binary image, white is background and others are black)  
+Publisher will combine green filtered image with background filtered image and draw the contours of the image.    
 
 https://user-images.githubusercontent.com/45909260/178341847-226bb57a-8e1c-4761-b4be-20c2ac6ce0a3.mp4
 
