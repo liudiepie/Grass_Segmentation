@@ -40,6 +40,8 @@ The minimum detective distance is ~20cm (480p, [extended](https://docs.luxonis.c
    ```
 After executing these commands, disconnect and reconnect the USB cable to your OAK device.   
 If the terminal still shows it can’t connect to the camera, execute the depthai_demo.py without connecting to the camera and press the Apply and Restart button at the right bottom.  
+![ScreenShot Tool -20220802130209](https://user-images.githubusercontent.com/45909260/182432702-6bb590bb-5213-42b5-8215-6208f689e1f6.png)
+
 
 ## Pipeline
 ### Green Filter  
