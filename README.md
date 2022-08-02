@@ -82,8 +82,23 @@ If the terminal still shows it can’t connect to the camera, execute the deptha
 
 ## Installation
 There are two methods to do Green Filter either directly use C++ or use ros2 subscribe  
+One is depthai-core, the other is ROS2.  
+
 ### depthai-core
 This part is based on depthai-core which mentioned above. 
+In this repositary, under depthai-core there is rgb_preview.cpp.  
+After installing the depthai-core, go to /depthai-core/examples/ColorCamera and replace the same file
+Build the examples again
+```bash
+cmake -S. -Bbuild -D'DEPTHAI_BUILD_EXAMPLES=ON'
+cmake --build build
+```
+Then run the green filter
+```bash
+cd build/examples
+./rgb_preview
+```
+
 ### ROS2
 This part is based on [depthai-ros](https://github.com/luxonis/depthai-ros) with ROS2-Foxy.    
 First of all, follow the above link install dependencies in depthai-ros and build the repository.  
