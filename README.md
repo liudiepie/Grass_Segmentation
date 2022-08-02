@@ -11,7 +11,7 @@ The minimum detective distance is ~20cm (480p, [extended](https://docs.luxonis.c
 ### Specification
 ![ScreenShot Tool -20220802115343](https://user-images.githubusercontent.com/45909260/182418457-10c3710a-7dac-4790-b87a-8a0fcc73dd66.png)  
 ### Testing
-#### depthai_demo
+#### depthai_demo installation
 1. Clone the git under the [Link](https://github.com/luxonis/depthai.git)  
 2. Create a virtual environment and add the files  
    In this case, we can use the pycharm professional edition. To get access to the pycharm professional edition, we should create an account of JetBrains. Students will have free educational licenses for JetBrains([Link](https://www.jetbrains.com/community/education/#students)). After getting into the pycharm, we select New Project and change the location to the workspace/depthai. Then PyCharm will show the ReadMe of the git.  
@@ -41,6 +41,35 @@ The minimum detective distance is ~20cm (480p, [extended](https://docs.luxonis.c
 After executing these commands, disconnect and reconnect the USB cable to your OAK device.   
 If the terminal still shows it can’t connect to the camera, execute the depthai_demo.py without connecting to the camera and press the Apply and Restart button at the right bottom.  
 ![ScreenShot Tool -20220802130209](https://user-images.githubusercontent.com/45909260/182432702-6bb590bb-5213-42b5-8215-6208f689e1f6.png)
+
+#### depthai-core installation
+1. Clone the [repositary](https://github.com/luxonis/depthai-core.git)
+2. Check the prerequirement: CMake >= 3.10, C/C++14 compiler, OpenCV4 (Optional)
+   ```bash
+   sudo apt install libopencv-dev
+   ```
+3. Update submodule
+   ```bash
+   git submodule update --init --recursive
+   ```
+4. Cmake and build
+   ```bash
+   cmake -S. -Bbuild 
+   cmake --build build
+   ```
+5. Run the examples
+   ```bash
+   cmake -S. -Bbuild -D'DEPTHAI_BUILD_EXAMPLES=ON'
+   cmake --build build
+   ```
+   If there is an error **“CMake Error: The source directory "" does not exist.”**, it can be solved by replacing “-S” with “-H” in the command above. 
+   Then go to build/examples to find a preferred example
+   ```bash
+   cd build/examples
+   ./mono_mobilenet
+   ```
+   mono_mobilenet will show the mobilenet on the right camera. Mobilenet will distinguish the person, tv monitor, and chair in the office.  
+   ![ScreenShot Tool -20220802131820](https://user-images.githubusercontent.com/45909260/182435378-375a6e6a-0b2a-47d3-9a65-a740947da651.png)
 
 
 ## Pipeline
