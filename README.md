@@ -16,7 +16,20 @@ The minimum detective distance is ~20cm (480p, [extended](https://docs.luxonis.c
 2. Create a virtual environment and add the files  
    In this case, we can use the pycharm professional edition. To get access to the pycharm professional edition, we should create an account of JetBrains. Students will have free educational licenses for JetBrains([Link](https://www.jetbrains.com/community/education/#students)). After getting into the pycharm, we select New Project and change the location to the workspace/depthai. Then PyCharm will show the ReadMe of the git.  
 ![ScreenShot Tool -20220802121608](https://user-images.githubusercontent.com/45909260/182423244-b2b27382-18b4-402b-9e34-464f2f16e2a5.png)  
-3. 
+3. Open a terminal under workspace/depthai. If the user is using PyCharm, the terminal can be opened at the bottom of the window.  
+4. Install the necessary packages
+   ```bash
+   sudo curl -fL https://docs.luxonis.com/install_dependencies.sh | bash
+   ```
+   Then make sure the terminal under /depthai and type
+   ```bash
+   python3 install_requirements.py
+   ```
+5. Run the demo  
+   ```bash
+   python3 depthai_demo.py
+   ```
+   There might appear the error <span style="color:red"> ** “WARNING: Usb rules not found” ** </span>
 
 ## Pipeline
 ### Green Filter  
