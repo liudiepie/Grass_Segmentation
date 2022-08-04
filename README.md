@@ -99,7 +99,7 @@ cd build/examples
 ./rgb_preview
 ```
 
-### ROS2
+### depthai-ros
 This part is based on [depthai-ros](https://github.com/luxonis/depthai-ros) with ROS2-Foxy.    
 First of all, follow the above link install dependencies in depthai-ros, build this repository and go under /ros2.  
 Second, go under workspace/ros2/src/luxonis/depthai-ros-examples/depthai_examples/ros2_src and replace the rgb_video_subscriber.cpp  
